@@ -226,7 +226,7 @@
             <input id="userInput" class="message_input" placeholder="请点击相应选项进行互动......" />
         </div>
         <div class="send_message" id="sendMessageBtn">
-            <img src="IMAGE/发送.jpg" alt="Send" style="width: 100%; height: 100%; border-radius: 10px;">
+            <img src="发送.jpg" alt="Send" style="width: 100%; height: 100%; border-radius: 10px;">
         </div>
     </div>
 
@@ -252,7 +252,7 @@
         // 模拟 AI 打字的函数
         var sendAiMessage = function(text, delay, callback) {
             var newMessage = $('<li class="message left"></li>');
-            newMessage.append('<div class="avatar" style="background-image: url(IMAGE/机器人.jpeg);"></div>');
+            newMessage.append('<div class="avatar" style="background-image: url(医生.jpg);"></div>');
             var textWrapper = $('<div class="text_wrapper"><div class="text"></div></div>');
             newMessage.append(textWrapper);
             $('#message-list').append(newMessage);
